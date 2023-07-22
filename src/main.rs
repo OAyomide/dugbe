@@ -211,7 +211,7 @@ let end = start.elapsed();
     if !pg_dump.status.success() {
         let error = String::from_utf8_lossy(&pg_dump.stderr);
         println!("Failed to run pg_dump. There seems to be an error connecting to the database. Please check your connection info and try again.");
-        println!("Error: {}", error);
+        println!("{:?}", error.to_string());
         println!("Time spent: {}", time_spent);
         std::process::exit(1);
     }
