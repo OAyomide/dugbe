@@ -34,9 +34,7 @@ dugbe backup --output './backup.sql` --service <your railway.app db hosted servi
 
 ### Whats broken or "weird"?
 You may get an error like:
-```bash
-![Sample Error](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fzt%2Fsyr0j_td445cf8t0xrfn9y2h0000gp%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_681OAx%2FScreenshot%202023-07-22%20at%2022.41.35.png)
-```
+![Railway backup error](https://github.com/OAyomide/dugbe/assets/26779597/6bafa970-427d-457e-8dfb-6d00d7862221)
 
 This seems to be a non-fatal error and [this (tracking) issue](https://github.com/timescale/timescaledb/issues/1581) might be helpful. I suspect this might be helpful because
 IIRC, Railway.app uses TimescaleDB for its Postgres offering.
