@@ -40,3 +40,9 @@ You may get an error like:
 
 This seems to be a non-fatal error and [this (tracking) issue](https://github.com/timescale/timescaledb/issues/1581) might be helpful. I suspect this might be helpful because
 IIRC, Railway.app uses TimescaleDB for its Postgres offering.
+
+
+### Dependencies
+ - [cursive]()
+ - [pg_dump]()
+ - [pv]()
